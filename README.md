@@ -1,2 +1,2 @@
 # clustering
-Python + Numpy implementation of K-means clustering.
+Pure python implementation of K-means clustering.
