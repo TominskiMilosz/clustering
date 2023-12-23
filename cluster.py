@@ -11,10 +11,10 @@ def calculate_mass_center(points: Cluster, m=1) -> Point:
 
 class Model:
     def __init__(self, n_clusters: int, dataset: Cluster, max_iterations=1000) -> None:
-        self.n_clusters: int = n_clusters
-        self.max_iterations: int = max_iterations
-        self.dataset: Cluster = dataset
-        self.centroids: Cluster = list()
+        self.n_clusters = n_clusters
+        self.max_iterations = max_iterations
+        self.dataset = dataset
+        self.centroids = list()
 
     def initialize_centroids(self) -> Cluster:
         length = len(self.dataset)
