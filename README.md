@@ -1,2 +1,2 @@
 # clustering
-Pure python implementation of K-means clustering.
+Pure Python (3.12.1) implementation of K-means clustering.
