@@ -41,8 +41,6 @@ class Model:
     
     def evaluate(self) -> list[Cluster]:
         clusters = []
-        pings = []
-
         self.centroids = self.initialize_centroids()
 
         for count in range(self.max_iterations):
@@ -51,6 +49,5 @@ class Model:
             if new_centroids == self.centroids:
                 return clusters
             self.centroids = new_centroids
-            pings.append(count)
 
         return clusters
